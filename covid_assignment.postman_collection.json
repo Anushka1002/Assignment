@@ -1,0 +1,179 @@
+{
+	"id": "866b2f50-8bb7-effc-09ff-27a263f49eb3",
+	"name": "covid_assignment",
+	"description": "",
+	"order": [
+		"b7e6bdff-1aa4-20cb-f62c-4a3f4beb0a83",
+		"8425e130-90aa-95e3-44f3-7b1319dc3d3d",
+		"9491d494-1748-5928-2357-c4cc6bff8909",
+		"b06e80ef-b7c6-a4db-3258-f2407d8905c7",
+		"e24fa961-45a0-2958-7c4e-3ac965d5ecfc"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1618555227134,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "8425e130-90aa-95e3-44f3-7b1319dc3d3d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/patient/?bed_type=",
+			"queryParams": [
+				{
+					"key": "bed_type",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "866b2f50-8bb7-effc-09ff-27a263f49eb3",
+			"data": null,
+			"dataMode": "params",
+			"name": "Patients List",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618555248576,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9491d494-1748-5928-2357-c4cc6bff8909",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/patient/release/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "866b2f50-8bb7-effc-09ff-27a263f49eb3",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Release Patient/Bed",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618555262351,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"bed_number\": 1\n}"
+		},
+		{
+			"id": "b06e80ef-b7c6-a4db-3258-f2407d8905c7",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/beds/available/?bed_type=1&bed_number=2",
+			"queryParams": [
+				{
+					"key": "bed_type",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "bed_number",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "866b2f50-8bb7-effc-09ff-27a263f49eb3",
+			"data": null,
+			"dataMode": "params",
+			"name": "Beds List",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618555271573,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b7e6bdff-1aa4-20cb-f62c-4a3f4beb0a83",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/patient/admit/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618555735602,
+			"name": "Admit Patient",
+			"description": "",
+			"collectionId": "866b2f50-8bb7-effc-09ff-27a263f49eb3",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"rob\",\n\t\"email\": \"rob@yopmail.com\",\n\t\"bed_type\": null\n}"
+		},
+		{
+			"id": "e24fa961-45a0-2958-7c4e-3ac965d5ecfc",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/beds/status/?bed_number=9",
+			"queryParams": [
+				{
+					"key": "bed_number",
+					"value": "9",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "866b2f50-8bb7-effc-09ff-27a263f49eb3",
+			"data": null,
+			"dataMode": "params",
+			"name": "Bed Status",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618557993714,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

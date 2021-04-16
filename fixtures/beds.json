@@ -1,0 +1,146 @@
+[
+  {
+    "model": "accounts.bed",
+    "pk": 1,
+    "fields": {
+      "created_at": "2021-04-15T21:11:40.358Z",
+      "updated_at": "2021-04-15T21:12:34.194Z",
+      "is_active": true,
+      "bed_number": 0,
+      "bed_type": "1",
+      "is_available": true
+    }
+  },
+  {
+    "model": "accounts.bed",
+    "pk": 2,
+    "fields": {
+      "created_at": "2021-04-15T21:12:00.680Z",
+      "updated_at": "2021-04-15T21:12:43.020Z",
+      "is_active": true,
+      "bed_number": 1,
+      "bed_type": "2",
+      "is_available": true
+    }
+  },
+  {
+    "model": "accounts.bed",
+    "pk": 3,
+    "fields": {
+      "created_at": "2021-04-15T21:12:49.664Z",
+      "updated_at": "2021-04-15T21:13:02.183Z",
+      "is_active": true,
+      "bed_number": 2,
+      "bed_type": "1",
+      "is_available": true
+    }
+  },
+  {
+    "model": "accounts.bed",
+    "pk": 4,
+    "fields": {
+      "created_at": "2021-04-15T21:13:08.417Z",
+      "updated_at": "2021-04-15T21:13:08.417Z",
+      "is_active": true,
+      "bed_number": 3,
+      "bed_type": "3",
+      "is_available": true
+    }
+  },
+  {
+    "model": "accounts.bed",
+    "pk": 5,
+    "fields": {
+      "created_at": "2021-04-15T21:13:14.463Z",
+      "updated_at": "2021-04-15T21:13:14.463Z",
+      "is_active": true,
+      "bed_number": 4,
+      "bed_type": "1",
+      "is_available": true
+    }
+  },
+  {
+    "model": "accounts.bed",
+    "pk": 6,
+    "fields": {
+      "created_at": "2021-04-15T21:13:26.544Z",
+      "updated_at": "2021-04-15T21:13:26.544Z",
+      "is_active": true,
+      "bed_number": 5,
+      "bed_type": "2",
+      "is_available": true
+    }
+  },
+  {
+    "model": "accounts.bed",
+    "pk": 7,
+    "fields": {
+      "created_at": "2021-04-15T21:13:35.767Z",
+      "updated_at": "2021-04-15T21:15:39.770Z",
+      "is_active": false,
+      "bed_number": 6,
+      "bed_type": "1",
+      "is_available": false
+    }
+  },
+  {
+    "model": "accounts.bed",
+    "pk": 8,
+    "fields": {
+      "created_at": "2021-04-15T21:13:47.090Z",
+      "updated_at": "2021-04-15T21:13:47.090Z",
+      "is_active": true,
+      "bed_number": 7,
+      "bed_type": "3",
+      "is_available": true
+    }
+  },
+  {
+    "model": "accounts.bed",
+    "pk": 9,
+    "fields": {
+      "created_at": "2021-04-15T21:13:55.711Z",
+      "updated_at": "2021-04-15T21:15:46.725Z",
+      "is_active": false,
+      "bed_number": 8,
+      "bed_type": "1",
+      "is_available": false
+    }
+  },
+  {
+    "model": "accounts.bed",
+    "pk": 10,
+    "fields": {
+      "created_at": "2021-04-15T21:14:04.868Z",
+      "updated_at": "2021-04-15T21:15:55.840Z",
+      "is_active": true,
+      "bed_number": 9,
+      "bed_type": "2",
+      "is_available": true
+    }
+  },
+  {
+    "model": "accounts.bed",
+    "pk": 11,
+    "fields": {
+      "created_at": "2021-04-15T21:14:13.089Z",
+      "updated_at": "2021-04-15T21:16:01.837Z",
+      "is_active": false,
+      "bed_number": 10,
+      "bed_type": "1",
+      "is_available": false
+    }
+  },
+  {
+    "model": "accounts.bed",
+    "pk": 12,
+    "fields": {
+      "created_at": "2021-04-15T21:14:23.761Z",
+      "updated_at": "2021-04-15T21:14:23.761Z",
+      "is_active": true,
+      "bed_number": 11,
+      "bed_type": "3",
+      "is_available": true
+    }
+  }
+]

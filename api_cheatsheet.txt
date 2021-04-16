@@ -1,0 +1,24 @@
+Note - Also have added postman collection for apis "covid_assignment.postman_collection.json"
+
+1. To admin a patient
+POST - http://127.0.0.1:8000/patient/admit/
+{
+	"name":"rob",
+	"email": "rob@yopmail.com",
+	"bed_type":1
+}
+
+2. Release a Patient
+POST - http://127.0.0.1:8000/patient/release/
+{
+	"bed_number": "a"
+}
+
+3. Get List of Patients
+GET - http://127.0.0.1:8000/patient/?bed_type=
+
+4. Get List of Beds
+GET - http://127.0.0.1:8000/beds/available/?bed_type=&bed_number=1
+
+5. Get Status of Beds
+GET - http://127.0.0.1:8000/beds/status/?bed_number=9
